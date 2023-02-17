@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMAGE HOVER</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+
+
+        }
+
+        .box {
+            width: 320px;
+            overflow: hidden;
+
+        }
+
+        .box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: tranform .4s ease-in;
+
+        }
+
+        
+    </style>
+</head>
+
+<body>
+
+    
+    <div class="box">
+        <img src="carinfo (1).jpg "><pre><b>                  COMING SOON</b></pre> 
+
+    </div>
+    
+
+
+</body>
+
+</html>
